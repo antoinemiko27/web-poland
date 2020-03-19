@@ -1,0 +1,57 @@
+ul.navbar {
+  position: absolute;
+  top: 200px;
+  left: 15px;
+  width: 150px;
+  list-style-type: none;
+}
+
+ul.navbar li {
+  margin: 4px 0;
+  padding: 5px;
+  border-right: 3px solid #17252a;
+  border-top: 3px solid #17252a;
+  border-left: 19px solid #17252a;
+  border-bottom: 3px solid #17252a;
+}
+
+body{
+	margin-top: 160px;
+	margin-left: 300px;
+	background-image:url("back3.jpg");
+}
+
+h1{
+	text-align: center;
+	text-decoration: : underline;
+	font-size: 50px;
+}
+
+h3{
+	text-align: center;
+
+}
+
+img{
+	margin-left: 200px;
+}
+
+a:visited{
+	color: white;
+}
+
+a{
+	color: white;
+}
+
+.white{
+	color:white;
+}
+
+.red{
+	color:red;
+}
+
+video{
+	margin-left: 300px;
+}

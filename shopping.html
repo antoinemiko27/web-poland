@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Shopping </title>
+</head>
+<body>
+	<div id="main">
+		<div id="cart">
+			<input type="checkbox" id="important" name="low">
+			<label for="important"> important </label><br/>
+
+			<input type="checkbox" id="low" name="low">
+			<label for="low"> low importance </label><br/>
+
+			<label for="item"> choose article: </label>
+			<input type="text" id="item" name="item">
+			<button value="add" onclick="addItem()"> add to cart </button><br/>
+		</div>
+
+		<p>
+			cart list:
+			<ul id="shopping cart">
+
+			</ul>
+		</p>
+
+
+
+		<div>
+			<label for="index"> remove item : </label>
+			<input type="number" name="index" id="index">
+			<button value="remove" onclick="removeItem()"> remove item to cart </button>
+		</div>
+	</div>
+
+	<script src="dynamics.js"></script>
+</body>
+</html>
